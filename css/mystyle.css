@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 947px;
+  background-image: url(../img/header/bg-header.png);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header .logo-lang-email-nav {
+  max-width: 1026px;
+  min-width: 360px;
+  padding: 0 30px 0 30px;
+  max-height: 300px;
+  height: max-content;
+  min-height: 163px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 54px;
+}
+
+header .logo-lang-email-nav .logo-lang-email {
+  width: 100%;
+  min-width: 360px;
+  max-width: 867px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header .logo-lang-email-nav .logo-lang-email .logo {
+  max-width: 445px;
+  border-right: 1px solid #f1f1f1;
+}
+
+header .logo-lang-email-nav .logo-lang-email .lang-email {
+  max-width: 578px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 26px;
+}
+
+header .logo-lang-email-nav .logo-lang-email .lang-email .email {
+  width: 277px;
+  display: flex;
+  align-items: center;
+}
+
+header .logo-lang-email-nav .logo-lang-email .lang-email .email img {
+  margin-right: 5px;
+}
+
+header .logo-lang-email-nav .logo-lang-email .lang-email .lang {
+  width: 138px;
+  display: flex;
+  align-items: center;
+  margin: 5px 0 5px 0;
+}
+
+header .logo-lang-email-nav .logo-lang-email .lang-email .lang .flag {
+  width: 43px;
+  height: 43px;
+  border: 1px solid #f1f1f1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+header .logo-lang-email-nav .logo-lang-email .lang-email .lang .lang-menu li {
+  position: relative;
+}
+
+header .logo-lang-email-nav .logo-lang-email .lang-email .lang .lang-menu li:hover .lang-submenu {
+  visibility: visible;
+}
+
+header .logo-lang-email-nav .logo-lang-email .lang-email .lang .lang-menu .lang-submenu {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  width: 120px;
+  z-index: 10;
+  background-color: #ffffff;
+}
+
+header .logo-lang-email-nav .logo-lang-email .lang-email .lang .lang-menu .lang-submenu li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #f1f1f1;
+  cursor: pointer;
+}
+
+header .logo-lang-email-nav .logo-lang-email .lang-email .lang .lang-menu .lang-submenu li:hover {
+  background-color: #eb5635;
+  border-bottom: none;
+  color: #ffffff;
+}
+
+header .logo-lang-email-nav .logo-lang-email .lang-email .lang .lang-menu .lang-submenu li:hover img {
+  width: 18px;
+}
+
+header .logo-lang-email-nav .logo-lang-email .lang-email .lang .lang-menu .lang-submenu li:hover p {
+  width: 70px;
+}
+
+header .logo-lang-email-nav .nav-links-social {
+  max-width: 1026px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  border-top: 1px solid #f1f1f1;
+  padding: 10px 0 10px 0;
+}
+
+header .logo-lang-email-nav .nav-links-social .links {
+  max-width: 793px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo-lang-email-nav .nav-links-social .links a {
+  color: #000000;
+  width: 106px;
+  margin: 5px 0 5px 0;
+}
+
+header .logo-lang-email-nav .nav-links-social .social {
+  width: 96px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+header .logo-lang-email-nav .nav-links-social .social img {
+  margin-left: 8px;
+}
+
+header .headline-text {
+  max-width: 567px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px;
+}
+
+header .headline-text p:nth-of-type(1),
+header .headline-text p:nth-of-type(2) {
+  font-size: 42px;
+  color: #ffffff;
+}
+
+header .headline-text p:nth-of-type(2) {
+  font-weight: bold;
+}
+
+header .headline-text p:nth-of-type(3) {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 29px 0 46px 0;
+}
+
+header .headline-text .h-line {
+  width: 188px;
+  height: 3px;
+  background-color: #eb5635;
+  margin: 23px 0 19px 0;
+}
+
+header .headline-text button {
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+header .headline-text .first {
+  width: 160px;
+  color: #ffffff;
+  background-color: #eb5635;
+  margin-right: 14px;
+}
+
+header .headline-text .second {
+  width: 191px;
+  color: #000000;
+}
