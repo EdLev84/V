@@ -128,7 +128,7 @@ a
 
 
 
-
+// HEADER
 header
     width: 100%
     height: 947px
@@ -265,7 +265,7 @@ header
 
                 img
                     margin-left: 8px
-
+// HEADER
 
 
 
@@ -628,3 +628,193 @@ header
                 border-radius: 50px
                 border: 2px solid $coloro
                 background: none
+
+
+
+
+
+.blog-press-tweets
+    display: flex
+    width: 100%
+    flex-wrap: wrap
+    align-items: center
+    justify-content: space-around
+    margin: 50px 0 30px 0
+
+    .blog-blocks
+        height: 395px
+
+        .blog-head
+            max-width: 400px
+            width: 100%
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+            justify-content: space-between
+
+            .blog-left
+                font-size: 36px
+                font-weight: bold
+
+            .blog-right
+
+                a
+                    font-size: 15px
+                    color: #000000
+
+                a:hover
+                    color: $coloro
+
+
+        .blog-main
+            display: flex
+            flex-wrap: wrap
+            flex-direction: column
+            max-width: 400px
+            align-items: center
+            width: 100%
+            background-color: $colorw
+            padding: 47px 30px 57px 30px
+            height: 338px
+
+            .blog-section
+                max-width: 330px
+                width: 100%
+                display: flex
+                align-items: center
+
+                .blog-info
+                    margin-left: 20px
+
+                    p:first-child
+                        font-size: 21px
+                        font-weight: bold
+                        margin-bottom: 5px
+                        color: #686868
+
+
+            .blog-section:first-child
+                margin-bottom: 30px
+
+
+    .press-blocks
+        height: 395px
+
+        .press-head
+            max-width: 400px
+            width: 100%
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+            justify-content: space-between
+            font-size: 36px
+            font-weight: bold
+
+        .press-main
+            display: flex
+            flex-wrap: wrap
+            flex-direction: column
+            max-width: 400px
+            align-items: flex-start
+            width: 100%
+            background-color: $colorw
+            padding: 47px 30px 57px 30px
+            text-align: left
+            height: 338px
+
+            p:nth-child(1)
+                font-size: 21px
+                font-weight: bold
+                margin-bottom: 15px
+                color: #686868
+                max-width: 400px
+                width: 100%
+
+            p:nth-child(2)
+                font-size: 15px
+                color: #686868
+                margin-bottom: 15px
+
+            a
+                color: red
+
+            a:hover
+                color: #000000
+
+
+
+    .tweets-block
+        height: 395px
+
+        mark
+            color: #59adeb
+            background: none
+
+        .tweets-head
+            max-width: 400px
+            width: 100%
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+            justify-content: space-between
+            font-size: 36px
+            font-weight: bold
+
+        .tweets-main
+            display: flex
+            flex-wrap: wrap
+            flex-direction: column
+            max-width: 400px
+            align-items: flex-start
+            width: 100%
+            background-color: $colorw
+            padding: 47px 30px 57px 30px
+            text-align: left
+            font-size: 15px
+            color: #686868
+            height: 323px
+
+            p:nth-child(1)
+                margin-bottom: 60px
+
+        .tweets
+            display: flex
+            align-items: baseline
+            margin-top: 5px
+
+            p
+                margin-left: 5px
+
+
+
+footer
+
+    .footer-logo-link-lang
+        width: 100%
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        justify-content: space-between
+        background-color: $colorw
+
+        .footer-logo-link
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+            justify-content: space-around
+
+            a, img
+                margin-left: 60px
+                color: #000000
+
+            a:hover
+                color: $coloro
+
+        .footer-lang
+            margin-right: 60px
+
+
+    .block-developer
+        height: 50px
+        background-color: #000000
+        color: $colorw

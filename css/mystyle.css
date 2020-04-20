@@ -668,3 +668,208 @@ header .logo-lang-email-nav .nav-links-social .social img {
   border: 2px solid #eb5635;
   background: none;
 }
+
+.blog-press-tweets {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 0 30px 0;
+}
+
+.blog-press-tweets .blog-blocks {
+  height: 395px;
+}
+
+.blog-press-tweets .blog-blocks .blog-head {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog-press-tweets .blog-blocks .blog-head .blog-left {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.blog-press-tweets .blog-blocks .blog-head .blog-right a {
+  font-size: 15px;
+  color: #000000;
+}
+
+.blog-press-tweets .blog-blocks .blog-head .blog-right a:hover {
+  color: #eb5635;
+}
+
+.blog-press-tweets .blog-blocks .blog-main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 400px;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 47px 30px 57px 30px;
+  height: 338px;
+}
+
+.blog-press-tweets .blog-blocks .blog-main .blog-section {
+  max-width: 330px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.blog-press-tweets .blog-blocks .blog-main .blog-section .blog-info {
+  margin-left: 20px;
+}
+
+.blog-press-tweets .blog-blocks .blog-main .blog-section .blog-info p:first-child {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #686868;
+}
+
+.blog-press-tweets .blog-blocks .blog-main .blog-section:first-child {
+  margin-bottom: 30px;
+}
+
+.blog-press-tweets .press-blocks {
+  height: 395px;
+}
+
+.blog-press-tweets .press-blocks .press-head {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.blog-press-tweets .press-blocks .press-main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 400px;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 47px 30px 57px 30px;
+  text-align: left;
+  height: 338px;
+}
+
+.blog-press-tweets .press-blocks .press-main p:nth-child(1) {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #686868;
+  max-width: 400px;
+  width: 100%;
+}
+
+.blog-press-tweets .press-blocks .press-main p:nth-child(2) {
+  font-size: 15px;
+  color: #686868;
+  margin-bottom: 15px;
+}
+
+.blog-press-tweets .press-blocks .press-main a {
+  color: red;
+}
+
+.blog-press-tweets .press-blocks .press-main a:hover {
+  color: #000000;
+}
+
+.blog-press-tweets .tweets-block {
+  height: 395px;
+}
+
+.blog-press-tweets .tweets-block mark {
+  color: #59adeb;
+  background: none;
+}
+
+.blog-press-tweets .tweets-block .tweets-head {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.blog-press-tweets .tweets-block .tweets-main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 400px;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 47px 30px 57px 30px;
+  text-align: left;
+  font-size: 15px;
+  color: #686868;
+  height: 323px;
+}
+
+.blog-press-tweets .tweets-block .tweets-main p:nth-child(1) {
+  margin-bottom: 60px;
+}
+
+.blog-press-tweets .tweets-block .tweets {
+  display: flex;
+  align-items: baseline;
+  margin-top: 5px;
+}
+
+.blog-press-tweets .tweets-block .tweets p {
+  margin-left: 5px;
+}
+
+footer .footer-logo-link-lang {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+footer .footer-logo-link-lang .footer-logo-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .footer-logo-link-lang .footer-logo-link a, footer .footer-logo-link-lang .footer-logo-link img {
+  margin-left: 60px;
+  color: #000000;
+}
+
+footer .footer-logo-link-lang .footer-logo-link a:hover {
+  color: #eb5635;
+}
+
+footer .footer-logo-link-lang .footer-lang {
+  margin-right: 60px;
+}
+
+footer .block-developer {
+  height: 50px;
+  background-color: #000000;
+  color: #ffffff;
+}
