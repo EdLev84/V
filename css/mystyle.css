@@ -66,6 +66,70 @@ a {
   color: #000000;
 }
 
+.box-text {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 250px;
+  text-align: left;
+  padding-left: 44px;
+}
+
+.box-text p:nth-of-type(1) {
+  font-size: 27px;
+  width: 180px;
+  color: #686868;
+}
+
+.box-text p:nth-of-type(2) {
+  font-size: 17px;
+  width: 180px;
+  color: #686868;
+}
+
+.box-text .number-point {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.box-text .number-point .point {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.box-text .number-point .point .one {
+  width: 47px;
+  height: 47px;
+  border: 1px solid #eb5635;
+  border-radius: 50%;
+  color: #eb5635;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-text .number-point .point p {
+  margin-left: 13px;
+  font-size: 18px;
+  color: #eb5635;
+}
+
+.box-text .view {
+  width: 163px;
+  height: 39px;
+  background-color: #eb5635;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
 header {
   width: 100%;
   height: 947px;
@@ -269,4 +333,101 @@ header .logo-lang-email-nav .nav-links-social .social img {
   font-size: 18px;
   color: #686868;
   margin: 29px 0 46px 0;
+}
+
+.three-boxes {
+  width: 100%;
+  min-width: 340px;
+  max-width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  justify-content: center;
+}
+
+.three-boxes .first-box {
+  max-width: 490px;
+  min-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(../img/three-box/dishonored-bg.png);
+  background-size: cover;
+  justify-content: flex-end;
+}
+
+.three-boxes .second-box {
+  height: 490px;
+  width: 250px;
+  margin-left: 5px;
+}
+
+.three-boxes .second-box .box-text {
+  padding-left: 22px;
+  height: 232px;
+}
+
+@media screen and (max-width: 360px) {
+  .three-boxes .second-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.three-boxes .third-box {
+  background-image: url(../img/three-box/battlefield-bg.png);
+  background-size: cover;
+  max-width: 510px;
+  min-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  height: 490px;
+}
+
+.three-boxes .third-box .box-text {
+  background-color: transparent;
+  color: #ffffff;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.three-boxes .third-box .box-text .ios {
+  width: 94px;
+  height: 29px;
+  background-color: #eb5635;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.three-boxes .third-box .box-text p {
+  color: #ffffff;
+}
+
+.three-boxes .third-box .box-text p:nth-of-type(1) {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.three-boxes .third-box .box-text p:nth-of-type(1) mark {
+  background: none;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.three-boxes .third-box .box-text .view {
+  width: 163px;
+  height: 39px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+  margin-bottom: 10px;
 }
