@@ -12,6 +12,60 @@ a {
   text-decoration: none;
 }
 
+.headline-text {
+  max-width: 567px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.headline-text p:nth-of-type(1),
+.headline-text p:nth-of-type(2) {
+  font-size: 42px;
+  color: #ffffff;
+}
+
+.headline-text p:nth-of-type(2) {
+  font-weight: bold;
+}
+
+.headline-text p:nth-of-type(3) {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 29px 0 46px 0;
+}
+
+.headline-text .h-line {
+  width: 188px;
+  height: 3px;
+  background-color: #eb5635;
+  margin: 23px 0 19px 0;
+}
+
+.headline-text button {
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.headline-text .first {
+  width: 160px;
+  color: #ffffff;
+  background-color: #eb5635;
+  margin-right: 14px;
+}
+
+.headline-text .second {
+  width: 191px;
+  color: #000000;
+}
+
 header {
   width: 100%;
   height: 947px;
@@ -166,56 +220,53 @@ header .logo-lang-email-nav .nav-links-social .social img {
   margin-left: 8px;
 }
 
-header .headline-text {
-  max-width: 567px;
+.game {
+  background-image: url(../img/homefront-bg.png);
+  background-size: cover;
   width: 100%;
+  min-height: 250px;
+  height: 100%;
+  max-height: 610px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  padding: 10px;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-header .headline-text p:nth-of-type(1),
-header .headline-text p:nth-of-type(2) {
+.game .headline-text {
+  margin: 50px 0 100px 0;
+}
+
+.game .headline-text p:nth-of-type(1),
+.game .headline-text p:nth-of-type(2) {
   font-size: 42px;
-  color: #ffffff;
+  color: #686868;
 }
 
-header .headline-text p:nth-of-type(2) {
+.game .headline-text p:nth-of-type(1) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.game .headline-text p:nth-of-type(1) :only-child {
+  display: block;
+  color: #686868;
+  font-size: 16px;
+  width: 80px;
+  margin: 10px 0 0 20px;
+}
+
+.game .headline-text p:nth-of-type(1):hover :only-child {
+  color: #eb5635;
+}
+
+.game .headline-text p:nth-of-type(2) {
   font-weight: bold;
 }
 
-header .headline-text p:nth-of-type(3) {
+.game .headline-text p:nth-of-type(3) {
   font-size: 18px;
-  color: #ffffff;
+  color: #686868;
   margin: 29px 0 46px 0;
-}
-
-header .headline-text .h-line {
-  width: 188px;
-  height: 3px;
-  background-color: #eb5635;
-  margin: 23px 0 19px 0;
-}
-
-header .headline-text button {
-  height: 40px;
-  border-radius: 50px;
-  text-align: center;
-  border: none;
-  font-size: 15px;
-  font-weight: bold;
-  margin-top: 5px;
-}
-
-header .headline-text .first {
-  width: 160px;
-  color: #ffffff;
-  background-color: #eb5635;
-  margin-right: 14px;
-}
-
-header .headline-text .second {
-  width: 191px;
-  color: #000000;
 }

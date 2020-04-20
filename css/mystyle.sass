@@ -14,6 +14,56 @@ li
 a
     text-decoration: none
 
+.headline-text
+    max-width: 567px
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    flex-direction: column
+    padding: 10px
+
+    p:nth-of-type(1),
+    p:nth-of-type(2)
+        font-size: 42px
+        color: $colorw
+
+    p:nth-of-type(2)
+        font-weight: bold
+
+    p:nth-of-type(3)
+        font-size: 18px
+        color: $colorw
+        margin: 29px 0 46px 0
+
+    .h-line
+        width: 188px
+        height: 3px
+        background-color: $coloro
+        margin: 23px 0 19px 0
+
+    button
+        height: 40px
+        border-radius: 50px
+        text-align: center
+        border: none
+        font-size: 15px
+        font-weight: bold
+        margin-top: 5px
+
+    .first
+        width: 160px
+        color: $colorw
+        background-color: $coloro
+        margin-right: 14px
+
+    .second
+        width: 191px
+        color: #000000
+
+
+
+
+
 
 
 header
@@ -155,48 +205,49 @@ header
 
 
 
+
+
+
+.game
+    background-image: url(../img/homefront-bg.png)
+    background-size: cover
+    width: 100%
+    min-height: 250px
+    height: 100%
+    max-height: 610px
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    justify-content: flex-end
+
     .headline-text
-        max-width: 567px
-        width: 100%
-        display: flex
-        flex-wrap: wrap
-        flex-direction: column
-        padding: 10px
+        margin: 50px 0 100px 0
 
         p:nth-of-type(1),
         p:nth-of-type(2)
             font-size: 42px
-            color: $colorw
+            color: #686868
+
+        p:nth-of-type(1)
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+
+        p:nth-of-type(1) :only-child
+            display: block
+            color: #686868
+            font-size: 16px
+            width: 80px
+            margin: 10px 0 0 20px
+
+
+        p:nth-of-type(1):hover :only-child
+            color: $coloro
 
         p:nth-of-type(2)
             font-weight: bold
 
         p:nth-of-type(3)
             font-size: 18px
-            color: $colorw
+            color: #686868
             margin: 29px 0 46px 0
-
-        .h-line
-            width: 188px
-            height: 3px
-            background-color: $coloro
-            margin: 23px 0 19px 0
-
-        button
-            height: 40px
-            border-radius: 50px
-            text-align: center
-            border: none
-            font-size: 15px
-            font-weight: bold
-            margin-top: 5px
-
-        .first
-            width: 160px
-            color: $colorw
-            background-color: $coloro
-            margin-right: 14px
-
-        .second
-            width: 191px
-            color: #000000
